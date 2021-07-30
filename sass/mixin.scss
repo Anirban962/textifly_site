@@ -1,0 +1,17 @@
+@mixin button{
+    outline: none;
+    border: 0px;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #7acf68;
+    color: #fefffd;
+    font-family: $lato-font;
+    padding: 14px 30px;
+}
+
+@mixin grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    grid-gap: 10px;
+}

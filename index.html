@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>TEXTIFLY</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--bootstrap css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!--font awesome CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Lora font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!--lato font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!--style.css-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--responsive.css-->
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+      <header>
+              <div class="banner_img">
+                <img src="img/banner.jpg" alt="banner_img">
+            </div>
+      <!--Logo text-->   
+            <div class="container">
+              <a class="logo" href="#">TEXTIFLY</a>
+            </div>
+            
+              <div class="container">
+                <div class="nav_menu">
+                  <nav>
+                  <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">key features</a></li>
+                    <li><a href="#">pricing</a></li>
+                    <li><a href="#">testimonial</a></li>
+                    <li><a href="#">faq</a></li>
+                  </ul>
+                </nav>
+                </div>                  
+            <!--button-->
+            <button type="button" class="btn btn-primary">try for free</button>
+              </div>
+
+              <!--moblile nav-->
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+     
+        <ul>            
+          <li><a href="#">home</a></li>
+          <li><a href="#">key features</a></li>
+          <li><a href="#">pricing</a></li>
+          <li><a href="#">projects</a></li>
+          <li><a href="#">testimonial</a></li>
+          <li><a href="#">faq</a></li>
+        </ul> 
+      
+      </div>
+	
+
+		<!-- Use any element to open the sidenav -->
+		<span onclick="openNav()">
+     
+        <i class="fas fa-bars" id="bar_ico"></i>
+     
+    </span>
+
+
+
+            
+
+            <div class="container">
+                <div class="row">
+                  <div class="col col-md-6">
+                    <div class="sub_heading">
+                      <img src="img/head_circle.png" alt="imgage" class="head_circle">
+                      <p class="text">
+                        #1 Editors choice app of 2020
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col col-md-6">
+                    <div class="heading">
+                      <h1>Best app for your <br>
+                      modern lifestyle</h1>
+                      <p class="heading_text">increase productivity with a simple to-do-app. <br> app for 
+                        managing your personal budgets.
+                      </p>
+                      <button type="button" class="btn btn-success" id="heading_btn">Try for free</button>
+                      <p class="heading_demo">watch demo video</p>
+                    </div>
+                  </div>
+                </div>
+            </div>         
+      </header>
+      <div class="clearfix"></div>
+
+      <section>
+        <div class="container">
+          <div class="row">
+            <p class="co_text">trusted by companies like</p>
+            <div class="col p-0 mb-5">
+              <div class="co_img">
+                <img src="img/thumbnail.jpg" class="rounded mx-auto d-block" alt="...">
+                <img src="img/thumb_1.jpg" class="rounded mx-auto d-block" alt="...">
+                <img src="img/thumb_2.jpg" class="rounded mx-auto d-block" alt="...">
+                <img src="img/thumb_3.jpg" class="rounded mx-auto d-block" alt="...">
+                <img src="img/thumb_4.jpg" class="rounded mx-auto d-block" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+<div class="clearfix"></div>
+
+<section id="features">
+  <div class="container">
+    <div class="row">
+      <div class="col col-md-6">
+        <img src="img/features_app.jpg" class="features_img" alt="">
+      </div>
+      <div class="col col-md-6 pb-5">
+        <h2>awesome apps <br> features</h2>
+        <p class="app_text">increase productivity with a simple to-do app. <br> app for 
+        managing your personal budgets</p>
+
+<!--feature list-->
+        <div class="feature_list">
+        <div class="d-flex align-items-center">
+          <div class="flex-shrink-0">
+            <img src="img/circle.jpg" class="feature_img" alt="...">
+          </div>
+          <div class="flex-grow-1 ms-3">
+            <h4 class="feature_heading">fast performance</h4>
+           <p class="feature_text">get your blood tests delivered at <br>home collect a sample 
+          from the <br>news your blood tests</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature_list1">
+      <div class="d-flex align-items-center">
+        <div class="flex-shrink-0">
+          <img src="img/circle_1.jpg" class="feature_img1" alt="...">
+        </div>
+        <div class="flex-grow-1 ms-3">
+          <h4 class="feature_heading1">prototyping</h4>
+         <p class="feature_text">get your blood tests delivered at <br>home collect a sample 
+        from the <br>news your blood tests</p>
+        </div>
+      </div>
+      </div>
+
+      <div class="feature_list2">
+      <div class="d-flex align-items-center">
+        <div class="flex-shrink-0">
+          <img src="img/circle_2.jpg" class="feature_img2" alt="...">
+        </div>
+        <div class="flex-grow-1 ms-3">
+          <h4 class="feature_heading2">vector editing</h4>
+         <p class="feature_text">get your blood tests delivered at <br>home collect a sample 
+        from the <br>news your blood tests</p>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="feature_bottom_text">
+  <div class="container">
+    <div class="row">
+      <div class="col col-md-6">
+        <h1 class="f_bottom_header">smart jackpots that <br> you may
+        love this anytime & anywhere</h1>          
+      </div>
+      <div class="col col-md-6">
+        <p class="f_bottom_text">
+          the rise of mobile devices transforms the way we <br>
+          consume information entirely and the world's most 
+          elevant channels such as facebook.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<div class="clearfix"></div>
+
+<section>
+  <div class="container">
+    <div class="circle_grp">
+    <div class="row">
+      <div class="col col-md-4">
+        <img src="img/automate_circle.jpg" alt="">
+
+        <h3 class="circle_grp_heading">automatic payouts</h3>
+        <p class="circle_grp_text">get your blood tests delivered at <br>
+        home collect a sample from the news your blood tests.</p>
+      </div>
+
+      <div class="col col-md-4">
+        <img src="img/network_circle.jpg" alt="">
+
+        <h3 class="circle_grp_heading1">network effect</h3>
+        <p class="circle_grp_text">get your blood tests delivered at <br>
+        home collect a sample from the news your blood tests.</p>
+
+      </div>
+
+      <div class="col col-md-4">
+        <img src="img/only_circle.jpg" alt="">
+
+        <h3 class="circle_grp_heading2">bigger rewards method</h3>
+        <p class="circle_grp_text">get your blood tests delivered at <br>
+        home collect a sample from the news your blood tests.</p>
+      </div>
+    </div>    
+  </div>
+  </div>
+</section>
+<div class="clearfix"></div>
+
+<section id="integration">
+  <div class="container">
+    <div class="row">
+     <div class="col col-md-6">       
+          <img src="img/integration.jpg" id="integration_img"
+          alt="...">
+        </div>
+        <div class="col col-md-6 mt-5 pt-5">
+         <h4 class="integre_heading">designed & built by <br>
+        the latest code <br> integration</h4>
+
+        <p class="integre_text">the rise of mobile devices transforms the way we <br>
+        consume information entirely and the world's most <br>
+      elevant channels such as facebook</p>
+
+      <button type="button" class="btn btn-warning">learn more</button>
+    </div> 
+      
+    </div>
+  </div>
+</section>
+<hr>
+<div class="clearfix"></div>
+
+<section id="choose_app">
+  <h2 class="center_text">why you should choose <br> our app</h2>
+  <p class="center_sub_text">the rise of mobile devices transforms the way we consume  information 
+    entirely <br> and the world's most elevant channels such as facebook
+  </p>
+
+<div class="app_grid">
+  <div class="container">
+    <div class="row" id="upper_row">
+      <div class="col col-md-4">
+        <img src="img/app.jpg" alt="">
+        <h5 class="app_grid_heading">app development</h5>
+        <p class="app_grid_text">get your blood tests delivered at <br>
+        home collect a sample from the <br>news your blood tests.</p>
+      </div>
+
+      <div class="col col-md-4">
+        <img src="img/award.jpg" alt="">
+        <h5 class="app_grid_heading">10 times award</h5>
+        <p class="app_grid_text">get your blood tests delivered at <br>
+        home collect a sample from the <br>news your blood tests.</p>
+      </div>
+
+      <div class="col col-md-4">
+        <img src="img/cloud.jpg" alt="">
+        <h5 class="app_grid_heading">cloud storage</h5>
+        <p class="app_grid_text">get your blood tests delivered at <br>
+        home collect a sample from the <br>news your blood tests.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col col-md-4">
+        <img src="img/custom.jpg" alt="">
+        <h5 class="app_grid_heading">customization</h5>
+        <p class="app_grid_text">
+          get your blood tests delivered at <br>
+        home collect a sample from the <br>news your blood tests.</p>
+        </p>
+      </div>
+
+      <div class="col col-md-4">
+        <img src="img/ux.jpg" alt="">
+        <h5 class="app_grid_heading">ux planning</h5>
+        <p class="app_grid_text">
+          get your blood tests delivered at <br>
+        home collect a sample from the <br>news your blood tests.</p>
+        </p>
+      </div>
+
+      <div class="col col-md-4">
+        <img src="img/customer.jpg" alt="">
+        <h5 class="app_grid_heading">customer support</h5>
+        <p class="app_grid_text">
+          get your blood tests delivered at <br>
+        home collect a sample from the <br>news your blood tests.</p>
+        </p>
+      </div>      
+    </div>
+  </div>
+</div>
+</section>
+<div class="clearfix"></div>
+
+<section id="ultimate_feature">  
+  <div class="container">
+   
+    <div class="row">
+      <div class="col col-md-6">
+        <h2 class="ul_feature_heading">ultimate features <br>
+        that we built</h2>
+        <p class="ul_feature_text">
+          the rise of mobile devices transforms the way we <br>
+          consume information entirely.
+        </p>        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-md-6">      
+      <div class="small_grid">        
+        <div class="first_img">
+          <img src="img/app.jpg" alt="">
+          <h6 class="small_grid_heading">app development</h6>
+          <p class="small_grid_text">
+            get your blood tests delivered at <br>
+            home collect a sample from the <br>
+            news your blood tests.
+          </p>        
+        </div>
+        <div class="second_img">
+          <img src="img/ux.jpg" alt="">
+          <h6 class="small_grid_heading">ux planning</h6>
+          <p class="small_grid_text">
+            get your blood tests delivered at <br>
+            home collect a sample from the <br>
+            news your blood tests.
+          </p>
+        </div>
+        </div>
+
+        <div class="small_grid">
+        <div class="third_img">
+          <img src="img/cloud.jpg" alt="">
+          <h6 class="small_grid_heading">cloud storage</h6>
+          <p class="small_grid_text">
+            get your blood tests delivered at <br>
+            home collect a sample from the <br>
+            news your blood tests.
+          </p>
+        </div>
+        <div class="fourth_img">
+          <img src="img/customer.jpg" alt="">
+          <h6 class="small_grid_heading">customer support</h6>
+          <p class="small_grid_text">
+            get your blood tests delivered at <br>
+            home collect a sample from the <br>
+            news your blood tests.
+          </p>
+        </div>
+      </div>
+      <button type="button" class="btn btn-warning" id="see_all">see all</button>
+    </div>
+      <div class="col col-md-6">
+      <img src="img/planning.jpg" class="rounded float-end" id="side_banner"
+      alt="...">
+    </div>
+    </div>
+    </div>
+</section>
+<div class="clearfix"></div>
+
+<section id="pricing">
+  <div class="pricing_heading">
+    <h2>get awesome features, without 
+      <br>extra charges.
+    </h2>
+    <h6>the rise of mobile transforms the way we consume information entirely
+      <br>and the world's most elevant channels such as facebook.
+    </h6>
+<div class="container">
+  <div class="row">
+    <div class="col">
+    <div class="pricing_circle">
+        <p class="price_tag"><span class="left">monthly</span> 
+          <span class="right">annually</span>
+        </p>       
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+
+<div class="pricing_card_detail">
+<div class="container">
+  <div class="row">
+    <div class="col col-md-6">
+      <div class="card">
+        <img src="img/pricing_img.jpg" id="price_img" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">drag & drop builder</p>
+          <p class="card-text">1000's of templates</p>
+          <p class="card-text">blog support tools</p>
+          <p class="card-text">ecommerce store</p>
+          <p class="card_btn">
+          <button type="button" class="btn_trail">start free trail</button>
+        </p>
+        </div>
+      </div>
+    </div>
+    <div class="col col-md-6">
+      <div class="card">
+        <img src="img/pricing_img1.jpg" id="price_img" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">drag & drop builder</p>
+          <p class="card-text">1000's of templates</p>
+          <p class="card-text">blog support tools</p>
+          <p class="card-text">ecommerce store</p>
+          <p class="card_btn">
+          <button type="button" class="btn_trail" >subscribe now</button>
+        </p>
+        <p class="trail">or start 14 days trail</p>      
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<hr>
+<div class="clearfix"></div>
+
+<section id="client">
+  <div class="container">
+    <div class="row">
+      <div class="col col-md-6">
+        <img src="img/client.jpg" id="client_img"
+        alt="">
+      </div>
+      <div class="col col-md-6">
+        <h2 class="client_heading">meet client satisfaction <br> 
+        by using product</h2> <br>
+        <p class="client_text">
+          the rise of mobile devices transforms the way we consume. <br>
+          elevant channels such as facebook.
+        </p> <br>
+        <img src="img/5_stars.jpg" id="5_stars"
+        alt=""> 
+
+        <h4 class="client_sub_heading">user friendly & customization</h4>
+
+        <p class="client_sub_text">
+          bring to the table win-win survival strategies to ensure proactive <br>
+          domination. at the end of the day, going forward, a new normal that has
+          <br> evolved from generation X is on the runway heading towards a <br>
+          streamlined cloud solution. user generated content in real-time will <br> have multiple touchpoints for offshoring.
+        </p>
+
+        <div class="d-flex align-items-center">
+          <div class="flex-shrink-0">
+            <img src="img/ceo_img.jpg" id="ceo_img"
+            alt="...">
+          </div>
+          <div class="flex-grow-1 ms-3 mt-2">
+           <h5 class="ceo_name">zoltan nemeth</h5>
+           <p class="ceo_text">ceo of pixlar lab</p>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<div class="clearfix"></div>
+
+<section id="FAQ">
+  <div class="faq_details">
+    <h2 class="faq_heading">frequently asked questions</h2>
+    <p class="faq_text">
+      the rise of mobile devices transforms the way we consume information entirely <br> and the world's most elevant channels such as facebook.
+    </p>
+  </div>
+
+  <div class="faq_question">
+  <div class="container">
+    <div class="row d-block mx-auto">
+      <div class="col">
+  <h4 class="faq_Q1">how to contact with riders emergency?</h4>
+  <br>
+  <p class="faq_ans">leverage agile frameworks to provide a robust synopsis for high level overviews. iterative approaches <br>
+  to corportate strategy foster collabration thinking to further the overall value proposition. organically <br> grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+</div>
+</div>
+</div>
+</div>
+<!--accordion-->
+<div class="container">
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item mb-4 mt-2">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+       App installation failed, how to update system information.
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item mb-4">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Website response taking time, how to improve?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item mb-4">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        New update fixed all bug and issues.
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item mb-4">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        How to contact with riders emergency?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<hr>
+<div class="clearfix"></div>
+
+<section id="download_app">
+  <div class="container">
+    <div class="row">
+      <div class="col col-md-6">
+        <h3 class="download_heading">download our app now !</h3>
+        <p class="download_txt">
+          the rise of mobile devices transforms the way we consume information entirely <br> and the world's most elevant channels such as facebook.
+        </p>
+        <img src="img/g_play.jpg" id="g_play"
+        alt="">
+        <img src="img/iphone_app.jpg" id="i_play"
+        alt="">
+      </div>
+      <div class="col col-md-6">
+        <img src="img/download_sideimg.jpg" id="download_sideimg"
+        alt="">
+      </div>
+    </div>
+  </div>
+</section>
+<div class="clearfix"></div>
+
+<footer>
+  <div class="foo">
+  <div class="container-fluid">
+    <div class="row">
+      <h2 class="textifly">TEXTIFLY</h2>     
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="foo_nav_menu">
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">key features</a></li>
+            <li><a href="#">pricing</a></li>
+            <li><a href="#">testimonial</a></li>
+            <li><a href="#">faq</a></li>
+          </ul>
+        </div>      
+      </div>
+    </div>
+    <div class="row">
+      <div class="social_ico">
+    
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-github"></i>      
+    </div>
+    </div>
+    <div class="row">
+      <p class="copy">
+        <i class="fas fa-copyright"></i>
+        TEXTIFLY. all rights are reserved.
+      </p>
+    </div>
+  </div>
+</div>
+</footer>
+
+    <!--bootstrap JS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+    </script>
+  </body>
+</html>
