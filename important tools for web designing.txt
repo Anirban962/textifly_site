@@ -1,0 +1,69 @@
+1. clippy
+
+2. font awesome
+
+# https://www.bootdey.com/ -code snippets
+
+3. google font 
+
+4. https://gudh.github.io/ihover/dist/- ihover
+
+5. fontspace(LOGO font)
+
+6. https://placeit.net/
+
+7.https://animate.style/
+
+8.https://www.jqueryscript.net/demo/Powerful-Customizable-jQuery-Carousel-Slider-OWL-Carousel/
+
+9.https://smartslider3.com/blog/hero-slider-ideas-examples-and-inspiration/
+
+10.https://wowjs.uk/docs.html
+
+11.https://metroui.org.ua/intro.html
+
+12. codepen.io
+
+13. https://ianlunn.github.io/Hover/
+
+15. Lettering.Js
+
+16. CDN.js
+
+17.https://github.com/tameemsafi/typewriterjs -> typewritter.js (imp)
+
+18. https://tobiasahlin.com/moving-letters/
+
+19. bootsnapp (bootstrap plugin)
+
+20. AOS (animate on scroll)
+
+21. https://www.grabient.com/
+
+22. https://fonts.google.com/icons?selected=Material+Icons&icon.query=phone -> google fonts (best alternative of font awesome)
+
+23. https://flickity.metafizzy.co/ -> awesome slider or carousel.
+
+24. https://bootsnipp.com/search?q=footer -> bootstrap snippets
+
+
+
+
+
+
+
+
+
+
+/*Article-
+https://css-tricks.com/introduction-fr-css-unit/
+https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/
+https://jsfiddle.net/boilerplate/responsive-css-grid
+Article-*/
+
+
+
+
+
+
+
