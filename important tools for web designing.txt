@@ -52,18 +52,3 @@
 
 
 
-
-
-
-/*Article-
-https://css-tricks.com/introduction-fr-css-unit/
-https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/
-https://jsfiddle.net/boilerplate/responsive-css-grid
-Article-*/
-
-
-
-
-
-
-
